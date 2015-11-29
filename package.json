@@ -1,13 +1,14 @@
 {
   "name": "easy-view",
   "main": "./lib/EasyView",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Create Atom views' DOM with html... like a sane person.",
   "keywords": [
     "view",
     "template",
     "html",
-    "markup"
+    "markup",
+    "atom"
   ],
   "activationCommands": {},
   "repository": {
