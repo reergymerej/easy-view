@@ -15,7 +15,7 @@ parseBindAttribute = (value) ->
   return if Object.keys(handlers).length then handlers else undefined
 
 getElementFromTemplatePath = (templatePath) ->
-  absoluteTemplatePath = path.join __dirname, templatePath
+  absoluteTemplatePath = path.join process.cwd(), templatePath
   file = fs.readFileSync absoluteTemplatePath, 'utf8'
   return $ file
 
