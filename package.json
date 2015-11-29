@@ -1,0 +1,21 @@
+{
+  "name": "easy-view",
+  "main": "./lib/EasyView",
+  "version": "0.0.0",
+  "description": "Create views' DOM with html... like a sane person.",
+  "keywords": [
+    "view",
+    "template",
+    "html",
+    "markup"
+  ],
+  "activationCommands": {},
+  "repository": "https://github.com/reergymerej/easy-view",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "jquery": "^2.1.4"
+  }
+}
