@@ -22,13 +22,13 @@ When the event is triggered, the handler will be called within the scope of the 
 ```coffee
 # Example.coffee
 EasyView = require 'easy-view'
-fs = require 'fs'
+path = require 'path'
 
 module.exports =
 class Example extends EasyView
 
   # specify the template
-  template: fs.join __dirname, './example.html'
+  template: path.join __dirname, './example.html'
 
   onClick: (element) ->
     console.log element, 'was clicked'
