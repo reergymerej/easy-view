@@ -44,6 +44,10 @@ Example = require './Example'
 
 example = new Example()
 
-# render appends example to a container element
+# Call render to append the DOM with event handlers to a container element.
 example.render(container)
 ```
+
+## Note
+
+This is a beta release, quickly thrown together while trying to develop an Atom package.  Please feel free to [report bugs](https://github.com/reergymerej/easy-view/issues) in order to make it better...stronger...faster.
